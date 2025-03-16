@@ -1,0 +1,101 @@
+header {
+    font-size: 30px;
+}
+
+.background {
+    background: url("background.jpg");
+    padding: 60px 0 60px 0;
+    background-color: transparent;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 110px;
+}
+
+nav li {
+    display:inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    text-shadow: 0cqmax 0cqmax 10px darkorange;
+}
+
+nav a:hover {
+    color: darkorange;
+    text-decoration: underline;
+}
+
+section h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+form {
+    text-align: center;
+}
+
+form label {
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+footer {
+    text-align: center;
+}
+
+.copyright-text {
+    color: black;
+    font-size: 18px;
+    margin-top: 0px;
+}
+
+.copyright {
+    margin-top: 220px;
+}
+
+.formulario {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.campo {
+    display: flex;
+    align-items: center; /* Alinha verticalmente */
+    margin-bottom: 10px;
+}
+
+.campo label {
+    width: 80px; /* Largura fixa para os rótulos ficarem alinhados */
+    text-align: right;
+    margin-right: 10px;
+}
+
+.campo input,
+.campo textarea {
+    flex: 1; /* Faz a caixa de texto ocupar o espaço restante */
+}
+
+.campo textarea {
+    resize: vertical; /* Permite redimensionar a área de texto */
+}
+
+form button {
+    margin-left: 250px;
+}

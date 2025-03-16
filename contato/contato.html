@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Nerdge Lessons</title>
+        <link rel="stylesheet" href="D:\sites\site\contato\contato.css">
+        <link rel="stylesheet" href="D:\sites\site\contato\reset.css">
+    </head>
+    <body>
+        <div class="background">
+            <header>
+                <div class="caixa">
+                    <h1>
+                        <a href="D:\sites\site\home\index.html">
+                            <img src="D:\sites\site\home\logo-home.png">
+                        </a>
+                    </h1>
+                    <nav>
+                        <ul>
+                            <li><a href="D:\sites\site\home\index.html">Home</a></li>
+                            <li><a href="../produtos/produtos.html">Produtos</a></li>
+                            <li><a href="D:\sites\site\contato\contato.html">Contato</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            <section>
+                <h2>Entre em contato conosco</h2>
+                <div class="formulario">
+                    <form>
+                        <div class="campo">
+                            <label for="nome">Nome:</label>
+                            <input type="text" id="nome" name="nome">
+                        </div>
+                        <div class="campo">
+                            <label for="email">E-mail:</label>
+                            <input type="email" id="email" name="email">
+                        </div>
+                        <div class="campo">
+                            <label for="mensagem">Mensagem:</label>
+                            <textarea id="mensagem" name="mensagem" rows="4"></textarea>
+                        </div>
+                        <button type="submit">Enviar</button>
+                    </form>
+                    <script>
+                        document.querySelector("form").addEventListener("submit", function(event) {
+                            alert("Formulario enviado com sucesso!");
+                        });
+                    </script>
+                </div>
+            </section>
+            <footer>
+                <div class="copyright">
+                    <img src="D:\sites\site\produtos\logo-branco.webp">
+                    <p class="copyright-text">&copy; Copyright Nerdge Lessons - 2025</p>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>

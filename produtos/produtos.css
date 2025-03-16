@@ -1,0 +1,97 @@
+header {
+    padding: 20px 0;
+}
+
+.background {
+    background: url("background.jpg");
+    padding: 60px 0 60px 0;
+    background-color: transparent;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 110px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    text-shadow: 0cqmax 0cqmax 10px darkorange;
+}
+
+nav a:hover {
+    color: darkorange;
+    text-decoration: underline;
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+    
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 5% 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.produtos li:hover {
+    border-color:darkorange;
+}
+
+.produtos li:hover h2 {
+    font-size: 32px;
+}
+
+.produtos li:active {
+    border-color: grey;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produtos p {
+    font-size: 18px;
+}
+
+footer {
+    text-align: center;
+    padding: 60px 0;
+    margin-bottom: -60px;
+}
+
+.copyright {
+    color: black;
+    font-size: 18px;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
